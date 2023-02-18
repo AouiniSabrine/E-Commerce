@@ -1,0 +1,21 @@
+{
+  "name": "user-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "mongosh": "^1.7.1",
+    "node": "^19.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
